@@ -1,4 +1,15 @@
 # Binarios compilados
+/bin/
 /domwatch
-/hello
 *.exe
+
+# Descargas/instaladores
+*.tar.gz
+
+# Terraform (enero)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Secretos locales
+.env
